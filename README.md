@@ -35,6 +35,7 @@
 ### Survival models
 
 ### Timeseries
+- [Forecasting: Principles and Practice](https://otexts.com/fpp2/) (2018) *Rob J Hyndman, George Athanasopoulos*
 - **Hidden Markov Model** ([Wiki](https://en.wikipedia.org/wiki/Hidden_Markov_model))
 - **ARIMA** Autoregressive Integrated Moving Average
 - **ARIMAX** (Seasonal)
@@ -43,12 +44,23 @@
 - **VAR** Vector autoregressions
 - **Holt-Winters exponential smoothing**
 - **Loess model** Seasonal decomposition
+- **Dynamic regression models**
 - **CHARME** Conditional Heteroscedastic Autoregressive Mixture of Experts
 - **Dynamic time warping** [Wiki](https://en.wikipedia.org/wiki/Dynamic_time_warping)
 
 ### Systems modeling
+> The coming century will be dominated by major social, political turmoil. And it will result primarily because people are doing what they think they should do, but do not realize that what they’re doing are causing these problems. So, I think the hope for this coming century is to develop a sufficiently large percentage of the population that have true insight into the nature of the complex systems within which they live. - Jay Forrester
+- **Logistic Chaos**
+  - [Logistic Equation](https://www.stsci.edu/~lbradley/seminar/logdiffeqn.html)
 - **Predator-Prey** Lotka–Volterra equations ([Wiki](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations))
   - [Using predator-prey models on the Canadian lynx series](https://statmodeling.stat.columbia.edu/2012/01/28/the-last-word-on-the-canadian-lynx-series/)
+- **Lorenz attractor** ([Wiki](https://en.wikipedia.org/wiki/Lorenz_system))
+- **Bass diffusion model** ([Wiki](https://en.wikipedia.org/wiki/Bass_diffusion_model))
+  - [Comments on “A New Product Growth for Model Consumer Durables The Bass Model”](https://pubsonline.informs.org/doi/10.1287/mnsc.1040.0300) (2004) *Frank M. Bass*
+- **SIR, SEIR**
+- **DICE** Dynamic Integrated Climate-Economy model ([Wiki](https://en.wikipedia.org/wiki/DICE_model))
+  - [The "Dice" Model: Background and Structure of a Dynamic Integrated Climate-Economy Model of the Economics of Global Warming](http://cowles.yale.edu/sites/default/files/files/pub/d10/d1009.pdf) (1992) *W. Nordhaus*
+
 
 ### [Bayesian networks](https://github.com/mlpapers/bayesian-nets)
 ### [Ensembles](https://github.com/mlpapers/ensemble-learning)
