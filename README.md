@@ -20,6 +20,7 @@
   - [Using a generalized additive model with autoregressive terms to study the effects of daily temperature on mortality](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3549928/#!po=1.47059) (2012) *Lei Yang, Guoyou Qin, Guixiang Song*
   - [Generalized additive neural networks](https://dl.acm.org/doi/10.1145/312129.312228) (1999) *William J. E. Potts*
   - [Neural Additive Models:Interpretable Machine Learning with Neural Nets](https://arxiv.org/pdf/2004.13912.pdf) (2020) *Rishabh Agarwal, Nicholas Frosst, Xuezhou Zhang, Rich Caruana, Geoffrey E. Hinton*
+  - [How Interpretable and Trustworthy are GAMs?](https://arxiv.org/pdf/2006.06466.pdf) (2020) *Chun-Hao Chang, Sarah Tan, Ben Lengerich, Anna Goldenberg, Rich Caruana*
 - **Simpson Paradox** ([Wiki](https://en.wikipedia.org/wiki/Simpson's_paradox))
   - [Simpson's Paradox and the implications for medical trials](https://arxiv.org/pdf/1912.01422) (2019) *Norman Fenton, Martin Neil, Anthony Constantinou*
 - **Quantile Regression** ([Wiki](https://en.wikipedia.org/wiki/Quantile_regression))
@@ -27,16 +28,22 @@
   - [Probabilistic forecasting approaches for extreme NO2 episodes: acomparison of models](https://arxiv.org/pdf/2003.11356.pdf) (2020) *Sebastian Perez Vasseur, Jose L. Aznarte*
 
 ### Trees
-- **CART**
+- **CART** Classification And Regression Tree
   - rpart ([CRAN](https://cran.r-project.org/web/packages/rpart/))
   - party ([CRAN](https://cran.r-project.org/web/packages/party/))
 - **BART** Bayesian Additive Regression Trees### Uplift models
+
+### SVM
 
 ### Survival models
 
 ### Timeseries
 - [Forecasting: Principles and Practice](https://otexts.com/fpp2/) (2018) *Rob J Hyndman, George Athanasopoulos*
+- **Kalman Filters** ([Wiki](https://en.wikipedia.org/wiki/Kalman_filter))
+  - [A new approach to linear filtering and prediction problems](http://www.cs.unc.edu/~welch/kalman/media/pdf/Kalman1960.pdf) (1960) *R. E. Kalman*
 - **Hidden Markov Model** ([Wiki](https://en.wikipedia.org/wiki/Hidden_Markov_model))
+  - [A tutorial on Hidden Markov Models and selected applications in speech recognition](https://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/tutorial%20on%20hmm%20and%20applications.pdf) (1989) *Lawrence R. Rabiner*
+  - [The Infinite Hidden Markov Model](http://papers.nips.cc/paper/1956-the-infinite-hidden-markov-model.pdf) *Matthew J. Beal, Zoubin Ghahramani, Carl Edward Rasmussen*
 - **ARIMA** Autoregressive Integrated Moving Average
 - **ARIMAX** (Seasonal)
 - **ARMA-GARCH**
