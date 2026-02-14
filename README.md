@@ -1,11 +1,3 @@
----
-title: "Machine Learning and Statistical Models"
-aliases: ["ML models", "Statistical models", "Predictive models"]
-tags:
-  - supervised
-  - regression
-  - classification
----
 # Machine learning and statistical models
 
 ### General
