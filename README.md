@@ -1,3 +1,11 @@
+---
+title: "Machine Learning and Statistical Models"
+aliases: ["ML models", "Statistical models", "Predictive models"]
+tags:
+  - supervised
+  - regression
+  - classification
+---
 # Machine learning and statistical models
 
 ### General
@@ -69,7 +77,12 @@
   - [The "Dice" Model: Background and Structure of a Dynamic Integrated Climate-Economy Model of the Economics of Global Warming](http://cowles.yale.edu/sites/default/files/files/pub/d10/d1009.pdf) (1992) *W. Nordhaus*
 
 
-### [Bayesian networks](https://github.com/mlpapers/bayesian-nets)
-### [Ensembles](https://github.com/mlpapers/ensemble-learning)
-### [Neural nets](https://github.com/mlpapers/neural-nets)
 
+
+## Related Topics
+- [Neural Networks](https://mlpapers.org/neural-nets/)
+- [Ensemble Learning](https://mlpapers.org/ensemble-learning/)
+- [Bayesian Networks](https://mlpapers.org/bayesian-nets/)
+- [Interpretability](https://mlpapers.org/interpretability/)
+- [Optimization](https://mlpapers.org/optimization/)
+- [Clustering](https://mlpapers.org/clustering/)
