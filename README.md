@@ -1,14 +1,16 @@
 # Machine Learning and Statistical Models
 
+🔒 Full text at this link requires payment or institutional access. Unmarked links may be unchecked.
+
 ## Linear and generalized linear models
 
 - **Least squares and ridge** - Least squares minimizes squared prediction errors; ridge adds a squared-coefficient penalty to stabilize fits with correlated predictors. Includes implementation and solver guidance. [docs](<https://scikit-learn.org/stable/modules/linear_model.html>).
 - **Lasso** - Constrains the sum of absolute regression coefficients, shrinking some exactly to zero. Combines estimation and variable selection. [Tibshirani 1996](<https://doi.org/10.1111/j.2517-6161.1996.tb02080.x> "Regression Shrinkage and Selection Via the Lasso; JRSS B").
-- **Elastic net** - Combines L1 and L2 penalties, allowing sparse coefficients while retaining ridge-style shrinkage. A useful alternative to lasso for correlated predictors. [docs](<https://scikit-learn.org/stable/modules/linear_model.html#elastic-net>).
+- **Elastic net** - Combines L1 and L2 penalties, allowing sparse coefficients while retaining ridge-style shrinkage. A useful alternative to lasso for correlated predictors. [Zou and Hastie 2005](<https://doi.org/10.1111/j.1467-9868.2005.00503.x> "Regularization and Variable Selection Via the Elastic Net; JRSS B"); [docs](<https://scikit-learn.org/stable/modules/linear_model.html#elastic-net>).
 - **Generalized linear models** - Connects an exponential-family response mean to a linear predictor through a link function. Unifies models fitted by iteratively weighted linear regression. [Nelder and Wedderburn 1972](<https://www.maths.usyd.edu.au/u/jchan/GLM/Nelder1972GLM.pdf> "Generalized Linear Models; JRSS A").
 - **Logistic regression** - Models binary class probability through a logistic link applied to a linear score. The documented implementation also supports multiclass classification and regularization. [docs](<https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression>).
 - **Generalized linear mixed models** - Adds random effects to GLMs for correlated observations and overdispersion. Breslow-Clayton develops approximate inference using penalized quasi-likelihood. [Breslow and Clayton 1993](<https://doi.org/10.1080/01621459.1993.10594284> "Approximate Inference in Generalized Linear Mixed Models; JASA").
-- **Tests as linear models** - Worked connections between regression, t-tests, correlation and ANOVA. Rank-based analogues are also discussed; some equivalences are approximate. [docs](<https://lindeloev.github.io/tests-as-linear/>).
+- **Tests as linear models** - Worked connections between regression, t-tests, correlation and ANOVA. Rank-based analogues are also discussed; some equivalences are approximate. [Lindeløv 2019](<https://lindeloev.github.io/tests-as-linear/> "Common statistical tests are linear models (or: how to teach stats); online article").
 
 ## Additive models and adaptive splines
 
@@ -91,7 +93,7 @@
 
 ## Dynamical and mechanistic models
 
-- **Simple discrete dynamics** - Shows how simple first-order nonlinear difference equations can produce stable equilibria, cycles or irregular fluctuations. A foundation for studying deterministic complexity. [May 1976](<https://www.nature.com/articles/261459a0> "Simple mathematical models with very complicated dynamics; Nature").
+- **Simple discrete dynamics** - Shows how simple first-order nonlinear difference equations can produce stable equilibria, cycles or irregular fluctuations. A foundation for studying deterministic complexity. [May 1976 🔒](<https://www.nature.com/articles/261459a0> "Simple mathematical models with very complicated dynamics; Nature").
 - **Predator-prey inference** - Fits Lotka-Volterra differential equations with a statistical observation model to lynx-hare pelt counts. Demonstrates Bayesian parameter inference and posterior predictive checks. [docs](<https://mc-stan.org/learn-stan/case-studies/lotka-volterra-predator-prey.html>).
 - **Lorenz dynamics** - Studies a deterministic nonlinear convection model whose nearby initial states can diverge. Connects nonperiodic dynamics to limits of long-range prediction. [Lorenz 1963](<https://doi.org/10.1175/1520-0469%281963%29020%3C0130%3ADNF%3E2.0.CO%3B2> "Deterministic Nonperiodic Flow; J. Atmos. Sci.").
 - **Bass diffusion** - Models initial product adoption using innovative and imitative behavior: purchase timing depends on previous buyers. The original study tests the model on consumer durables. [Bass 1969](<https://doi.org/10.1287/mnsc.15.5.215> "A New Product Growth for Model Consumer Durables; Management Science").
@@ -105,7 +107,7 @@
 
 - **Conformal prediction overview** - Reviews calibration-score methods for prediction sets with finite-sample marginal coverage under exchangeability. This guarantee does not imply coverage at each individual input. [Angelopoulos and Bates 2021](<https://arxiv.org/abs/2107.07511> "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification; arXiv").
 - **Forecast evaluation** - Compare against naïve and seasonal-naïve baselines. Evaluate held-out point forecasts and distributions separately; scaled errors support comparisons across series with different units. [Hyndman and Athanasopoulos 2021](<https://otexts.com/fpp3/accuracy.html> "Forecasting: Principles and Practice; book").
-- **Rolling-origin validation** - Repeatedly trains on past observations and evaluates later ones. Use forecast horizons matching deployment; fitting residuals do not measure future forecast accuracy. [Hyndman and Athanasopoulos 2021](<https://otexts.com/fpp3/tscv.html> "Forecasting: Principles and Practice; book").
+- **Rolling-origin validation** - Repeatedly trains on past observations and evaluates later ones. Use forecast horizons matching deployment; fitting residuals do not measure future forecast accuracy. [Tashman 2000](<https://doi.org/10.1016/S0169-2070(00)00065-0> "Out-of-sample tests of forecasting accuracy: an analysis and review; IJF"), [Hyndman and Athanasopoulos 2021](<https://otexts.com/fpp3/tscv.html> "Forecasting: Principles and Practice; book").
 
 ## Software
 
